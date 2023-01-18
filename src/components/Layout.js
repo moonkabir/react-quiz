@@ -1,6 +1,7 @@
 import Classes from "../styles/Layout.module.css";
 import Nav from "./Nav";
 export default function Layout({ children }) {
+  console.log(children);
   return (
     <>
       <Nav />
